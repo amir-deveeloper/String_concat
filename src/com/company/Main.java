@@ -3,9 +3,59 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(binarySearch(new int[]{1,2,3,5,7,11, 13, 17, 19, 23, 29, 31, 37}, 15 ));
+        System.out.println(sequentialSearch(new int[]{1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}, 15));
     }
 
+    public static int sequentialSearch(int[] arr, int x) {
+        boolean l = false;
+        int n = 0;
+
+        while (l == false) {
+
+            for (int i = 0; i < arr.length; i++) {
+
+                if (arr[i] == x) {
+                    l = true;
+                    n = 1;
+
+                    return i;
+                }
+
+            }
+
+            if (n == 0){
+
+                return -1;
+
+            }
+
+
+        }
+
+            return -1;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
     public static int binarySearch(int [] arr, int x){
 
         int l = 0;
@@ -29,6 +79,8 @@ public class Main {
 
         return -1;
     }
+
+     */
 
 
 
