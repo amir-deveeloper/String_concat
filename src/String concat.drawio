@@ -1,1 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T11:20:15.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="16.5.6" etag="vO96De58hqt_MOXbBo63" type="github"><diagram id="4YjTYf0JnJTQWXZm708N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-21T11:53:33.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="QM4T2p3edaiL3cPhgNv5" version="16.5.6" type="github">
+  <diagram id="4YjTYf0JnJTQWXZm708N" name="Page-1">
+    <mxGraphModel dx="2375" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A--TNvMkGrtlAczIzeIT-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="80" as="sourcePoint" />
+            <mxPoint x="425" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-3" value="arr = {3, 6, 1, 23}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=#FFB570;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="425" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-5" value="Is i == &amp;nbsp;0 ?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="385" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-6" value="i = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=#FFB570;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="300" as="sourcePoint" />
+            <mxPoint x="425" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="580" as="sourcePoint" />
+            <mxPoint x="425" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-11" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A--TNvMkGrtlAczIzeIT-8">
+          <mxGeometry x="-0.3056" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-10" value="Output arr[i] + &quot; is first, &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="343" y="640" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-5" target="A--TNvMkGrtlAczIzeIT-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="540" as="sourcePoint" />
+            <mxPoint x="600" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-13" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A--TNvMkGrtlAczIzeIT-12">
+          <mxGeometry x="-0.6239" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-14" value="Is i == &amp;nbsp;arr.length - 1?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="500" y="860" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="700" as="sourcePoint" />
+            <mxPoint x="424" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-16" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="365" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-16" target="A--TNvMkGrtlAczIzeIT-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="780" as="sourcePoint" />
+            <mxPoint x="240" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="790" />
+              <mxPoint x="240" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.1700000000001" y="960" as="sourcePoint" />
+            <mxPoint x="569.1700000000001" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-22" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A--TNvMkGrtlAczIzeIT-18">
+          <mxGeometry x="-0.051" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-19" value="Output arr[i] + &quot; is last&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="1020" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-20" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-14" target="A--TNvMkGrtlAczIzeIT-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="1160" as="sourcePoint" />
+            <mxPoint x="320" y="1290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-24" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A--TNvMkGrtlAczIzeIT-23">
+          <mxGeometry x="-0.4353" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-26" value="Output &lt;br&gt;arr[i] + &quot; is after &quot; + arr[i-1] + &quot; and below &quot; + arr[i+1] + &quot;, &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1310" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-27" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.17" y="1080" as="sourcePoint" />
+            <mxPoint x="569.17" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.1699999999998" y="1390" as="sourcePoint" />
+            <mxPoint x="719.1699999999998" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-27" target="A--TNvMkGrtlAczIzeIT-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1470" as="sourcePoint" />
+            <mxPoint x="210" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="1480" />
+              <mxPoint x="120" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-33" value="Is i &amp;lt; arr.length" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="385" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="440" as="sourcePoint" />
+            <mxPoint x="424" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-38" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A--TNvMkGrtlAczIzeIT-35">
+          <mxGeometry x="-0.2078" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="sourcePoint" />
+            <mxPoint x="720" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-41" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A--TNvMkGrtlAczIzeIT-37">
+          <mxGeometry x="-0.5642" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-39" value="End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A--TNvMkGrtlAczIzeIT-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A--TNvMkGrtlAczIzeIT-20" target="A--TNvMkGrtlAczIzeIT-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1350" as="sourcePoint" />
+            <mxPoint x="350" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1170" />
+              <mxPoint x="240" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
